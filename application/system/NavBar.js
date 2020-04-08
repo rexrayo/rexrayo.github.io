@@ -70,7 +70,7 @@ var NavBar = Vue.component('app-bars',{
                 </v-app-bar-nav-icon>
 
                 <v-avatar>
-                    <v-img src = "http://190.216.252.250:8080/drotaca_soberano/app/imgs/logos/drotaca.png"  /> 
+                    <v-img src = "./resources/images/drotaca.png"  /> 
                 </v-avatar>
                 
                 <v-toolbar-title>
