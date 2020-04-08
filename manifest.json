@@ -6,10 +6,21 @@
       "src": "img/icons/iconito.png",
       "sizes": "74x84",
       "type": "image/png"
+    },
+    {
+      "src": "img/icons/128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "/index.html",
-  "display": "standalone",	
+  "display": "standalone",
+  "orientation": "portrait",	
   "background_color": "#ddd",
   "theme_color": "#333"
 }

@@ -1,5 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
+
 if (workbox) {
     console.log("Yay! Workbox is loaded !");
     workbox.precaching.precacheAndRoute([]);
@@ -58,3 +59,24 @@ and control a web page as soon as possible
 } else {
     console.log("Oops! Workbox didn't load ðŸ‘º");
 }
+
+// install event
+self.addEventListener('install', evt => {
+  //console.log('service worker installed');
+  evt.waitUntil(
+    caches.open(staticCacheName).then((cache) => {
+      console.log('caching shell assets');
+      cache.addAll(assets);
+    })
+  );
+});
+
+// activate event
+self.addEventListener('activate', evt => {
+  //console.log('service worker activated');
+});
+
+// fetch event
+self.addEventListener('fetch', evt => {
+  //console.log('fetch event', evt);
+});
