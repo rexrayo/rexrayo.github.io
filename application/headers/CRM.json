@@ -1,0 +1,9 @@
+{
+	"head" : ["name"],
+	"columns": {
+		"id" : "ID",
+		"status" : "Estado",
+		"code" : "Codigo",
+		"territory_description" : "Territorio"
+	}
+}

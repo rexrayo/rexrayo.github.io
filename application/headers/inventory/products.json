@@ -1,0 +1,7 @@
+{
+    "head": ["product"],
+    "columns": {
+        "product_usage" : "Uso",
+        "total_units" : "Unidades"
+    }
+}

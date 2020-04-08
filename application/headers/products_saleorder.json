@@ -1,0 +1,26 @@
+{
+	"head": ["number_lot", "description", "saleorder_quantity"],
+	"columns" : {
+		"p_code" : "Codigo",
+		"expiration_date" : "Expiración",
+		"saleorder_quantity" : "Cantidad",
+		
+		"product_price" : {
+			"value" : "Precio C/U",
+			"format": "number",
+			"append": "BsS"
+		},
+
+		"subtotal_price" : {
+			"value" : "Subtotal",
+			"format": "number",
+			"append": "BsS"
+		},
+		
+		"tax_amount" : {
+			"value" : "Iva",
+			"format": "number",
+			"append": "BsS"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "head": ["first_name"],
+    "columns": {
+        "total_units": {
+            "format": "number",
+            "value" : "Unidades"
+        },
+        "route_name" : "Ruta",
+        "ndx1" : "Grupo"
+    }
+}
