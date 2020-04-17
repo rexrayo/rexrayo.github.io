@@ -24,6 +24,7 @@ import SignOut from "./components/SignOut.js";
 import editSaleOrder from "./components/salesorders/editSaleorder.js";
 import teleMarketing from "./components/Telemaketing.js";
 import CRM from "./components/CRM.js";
+import Task from "./components/Task.js";
 import routesApp from "./components/Routes.js";
 import Inventory from "./components/Inventory.js";
 
@@ -39,8 +40,10 @@ export default {
         {path: "/routes", component: routesApp, icon: "mdi-format-list-bulleted-type", title: "Rutas", menu: true},
         {path: "/telemarketing", component: teleMarketing, icon: "mdi-format-list-bulleted-type", title: "Televentas", menu: true},
         {path: "/CRM", component: CRM, icon: "mdi-format-list-bulleted-type", title: "CRM", menu: true},
+        {path: "/Task", component: Task, icon: "mdi-format-list-bulleted-type", title: "Task", menu: true},
         {path: "/signout", component: SignOut, icon: "mdi-close", title: "Cerrar Cesión", menu: true},
         {path: "/salesorders/edit/:id", component: editSaleOrder}
+
     ],
 
     // funcion que se dedica a la inicializacion del 

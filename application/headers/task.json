@@ -1,0 +1,6 @@
+{
+	"head" : ["name"],
+	"columns": {
+		"id" : "ID"
+	}
+}

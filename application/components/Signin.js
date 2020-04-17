@@ -43,7 +43,7 @@ var Signin = Vue.component('sign-app', {
         	<v-card class = "overflow-hidden">
     			<v-app-bar fixed color="blue accent-4" dark>
     				<v-avatar>
-    					<v-img src = "./resources/images/drotaca.png"  /> 
+    					<v-img src = "http://190.216.252.250:8080/drotaca_soberano/app/imgs/logos/drotaca.png"  /> 
     				</v-avatar>
     				<v-toolbar-title class = "text-center">
     					<span>Drotaca C.A</span>

@@ -9,7 +9,7 @@ class getUrlApi{
         #inicio de ejecucion
         $this->time['execStart'] = date('H:i:s');
         $this->uriExec = "http://190.216.252.250:8080/drotaca_soberano/app/mobile/{$url}";
-        // $this->uriExec = "http://localhost/drotaca_thelast/app/mobile/{$url}";
+        //$this->uriExec = "http://localhost/ERP/app/mobile/{$url}";
         
         # evaluando la GET que permiten hacer una busqueda de datos
         if( !empty($_GET["q"]) )
