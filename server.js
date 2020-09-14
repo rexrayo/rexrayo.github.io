@@ -77,7 +77,7 @@ server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', () => {
-		navigator.serviceWorker.register('../sw.js').then( () => {
+		navigator.serviceWorker.register('/sw.js').then( () => {
 		  console.log('Service Worker Registered')
 		})
 	})
