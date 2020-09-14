@@ -89,7 +89,7 @@ buttonInstall.addEventListener('click', (e) => {
 });
 
 window.addEventListener('appinstalled', (evt) => {
-  console.log('drotaca installed');
+  console.log('ChatSH installed');
 });
 
 /*// install event
