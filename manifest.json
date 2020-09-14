@@ -1,15 +1,10 @@
 {
-  "name": "Drotaca",
-  "short_name": "Drotaca",
+  "name": "ChatSH",
+  "short_name": "ChatSH",
   "icons": [
     {
-      "src": "img/icons/iconito.png",
-      "sizes": "74x84",
-      "type": "image/png"
-    },
-    {
-      "src": "img/icons/128x128.png",
-      "sizes": "128x128",
+      "src": "img/icons/160x160.png",
+      "sizes": "160x160",
       "type": "image/png"
     },
     {
@@ -18,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "public/index.html",
   "display": "standalone",
   "orientation": "portrait",	
   "background_color": "#ddd",

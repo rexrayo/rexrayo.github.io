@@ -1,7 +1,0 @@
-{
-    "head":["seller"],
-    "columns":{
-        "customer_quantity" : "Clientes",
-        "routes": "Rutas"
-    }
-}
