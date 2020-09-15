@@ -1,0 +1,21 @@
+{
+  "name": "ChatSH",
+  "short_name": "ChatSH",
+  "icons": [
+    {
+      "src": "img/icons/160x160.png",
+      "sizes": "160x160",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",	
+  "background_color": "#ddd",
+  "theme_color": "#333"
+}
